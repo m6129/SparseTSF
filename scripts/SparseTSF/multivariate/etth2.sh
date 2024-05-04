@@ -2,6 +2,9 @@ if [ ! -d "./logs" ]; then
     mkdir ./logs
 fi
 
+if [ ! -d "./logs/LongForecasting" ]; then
+    mkdir ./logs/LongForecasting
+fi
 model_name=SparseTSF
 
 root_path_name=./dataset/
