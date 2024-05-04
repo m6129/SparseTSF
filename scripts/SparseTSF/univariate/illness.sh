@@ -26,5 +26,5 @@ do
     --enc_in 1 \
     --train_epochs 30 \
     --patience 5 \
-    --itr 1 --batch_size 256 --learning_rate 0.02
+    --itr 1 --batch_size 256 --learning_rate 0.02> logs/LongForecasting/$model_name'_'$model_id_name'_'$seq_len'_'$pred_len.log
 done
