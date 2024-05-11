@@ -11,7 +11,7 @@ model_name=SparseTSF
 root_path_name=./dataset/
 data_path_name=de_big.csv
 model_id_name=de_big
-data_name=custom
+data_name=ETTh1
 
 seq_len=720
 for pred_len in 24 96 192 336 720
